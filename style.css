@@ -23,6 +23,10 @@ body {
 }
 
 .logo {
+    max-width: 100px;
+    min-width :100px;
+    height: 100%;
+    background: no-repeat center/cover url(./Sources/Image/Logo.png)
 }
 
 .corps {
@@ -38,11 +42,11 @@ body {
 }
 
 .agenda {
-    
+    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);
 }
 
 .Liensutile {
-    
+    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
 }
 
 .twogiftright {
@@ -52,14 +56,15 @@ body {
 }
 
 .pres {
-    
+    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
 }
 
 .hist {
-    
+    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
 }
 
 .giftDim {
+    height: 100%;
     width: 50%;
 }
 
