@@ -23,10 +23,11 @@ body {
 }
 
 .logo {
-    max-width: 100px;
-    min-width :100px;
+}
+
+.LogoAccueil{
     height: 100%;
-    background: no-repeat center/cover url(./Sources/Image/Logo.png)
+
 }
 
 .corps {
@@ -69,6 +70,7 @@ body {
 }
 
 .foot {
-    height: 5% ;
+    height: 2% ;
     text-align : center ;
+    font-size: 0.8em;
 }
