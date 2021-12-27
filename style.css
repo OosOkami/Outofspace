@@ -1,0 +1,69 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    border: thick double rgb(69, 30, 210);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    height: 10%;
+    justify-content: center
+}
+
+.logo {
+}
+
+.corps {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+}
+
+.twogiftleft {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.agenda {
+    
+}
+
+.Liensutile {
+    
+}
+
+.twogiftright {
+    width: 40%;
+    display: flex;
+	justify-content: space-around;
+}
+
+.pres {
+    
+}
+
+.hist {
+    
+}
+
+.giftDim {
+    width: 50%;
+}
+
+.foot {
+    height: 5% ;
+    text-align : center ;
+}
