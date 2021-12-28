@@ -14,6 +14,8 @@ body {
     height: 100%;
     width: 100%;
     margin: 0%;
+    background-color: rgb(04, 19, 24);
+    /* background: url(./Sources/Image/background-accueil-2.png) center/cover; */
 }
 
 .header {
@@ -43,7 +45,7 @@ body {
 }
 
 .agenda {
-    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);
+    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);    
 }
 
 .Liensutile {
@@ -68,6 +70,13 @@ body {
     height: 100%;
     width: 50%;
     margin: 1%;
+    border-radius: 100% 100% 0px 0px / 25% 25% 0px 0px;
+}
+
+.Imagelien{
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .foot {

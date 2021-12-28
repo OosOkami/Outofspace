@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    /* outline: thick double rgb(69, 30, 210); */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(04, 19, 24);
+    /* background: url(./Sources/Image/background-accueil-2.png) center/cover; */
+}
+
+.header {
+    display: flex;
+    height: 10%;
+    justify-content: center
+}
+
+.logo {
+}
+
+.LogoAccueil{
+    height: 100%;
+
+}
+
+.corps {
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.Orga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+    margin : 0%
+}
+
+.VpPres {
+    height: 18%;
+    width: 100%;
+    /* border: 3mm ridge rgba(95, 233, 14, 0.6); */
+    color:wheat;
+    display: flex;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 2px 2px 7px rgba(0, 202, 202, 0.5);
+}
+
+.icone {
+    height: 70%;
+    margin: 3%;
+    border-radius: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Maven Pro', sans-serif;
+    padding-right: 4% ;
+    text-align: justify;
+}
+
+.liens{
+    color: wheat;
+}
+.liens:hover {
+    color: tomato;
+}
+
+.name {
+    font-size: 3.5vh;
+    
+}
+
+.presContent {
+    font-size: 2vh;
+    
+}
+
+.Pres-Corpo {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color:rgb(249, 249, 253);
+    background-color: rgb(37, 37, 37);
+    box-shadow: 2px 2px 7px rgba(0, 202, 202, 0.5);
+}
+
+.Pres-Corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.exp{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    height: 90%;
+    padding: 0% 4% ;
+}
+
+.foot {
+    height: 2% ;
+    text-align : center ;
+    font-size: 0.8em;
+}
