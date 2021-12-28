@@ -15,16 +15,17 @@ body {
     width: 100%;
     margin: 0%;
     background-color: rgb(04, 19, 24);
-    /* background: url(./Sources/Image/background-accueil-2.png) center/cover; */
+    background: url(./Sources/Image/background-accueil.png) center/cover;
 }
 
 .header {
     display: flex;
     height: 10%;
-    justify-content: center
+    justify-content: center;
 }
 
 .logo {
+
 }
 
 .LogoAccueil{
@@ -45,11 +46,11 @@ body {
 }
 
 .agenda {
-    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);    
+    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);     */
 }
 
 .Liensutile {
-    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
+    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
 }
 
 .twogiftright {
@@ -59,18 +60,28 @@ body {
 }
 
 .pres {
-    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
+    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
 }
 
 .hist {
-    background: no-repeat center/cover url(./Sources/Image/CMD-SV.png)
+    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
 }
 
 .giftDim {
     height: 100%;
-    width: 50%;
+    width: 47%;
     margin: 1%;
-    border-radius: 100% 100% 0px 0px / 25% 25% 0px 0px;
+    border: rgb(0, 0, 0) 2px solid;
+    transition: all .4s ease-out;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.55);
+    border-start-end-radius: 15% 8%;
+    border-bottom-left-radius: 15% 8%;
+
+}
+.giftDim:hover {
+    background-size: 175%;
+    border-color: rgb(64, 86, 104);
 }
 
 .Imagelien{
@@ -83,4 +94,5 @@ body {
     height: 2% ;
     text-align : center ;
     font-size: 0.8em;
+    color: wheat;
 }
