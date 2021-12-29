@@ -16,7 +16,6 @@ body {
     height: 100%;
     width: 100%;
     margin: 0%;
-    background-color: rgb(04, 19, 24);
     background: url(../Sources/Image/background-accueil.png) center/cover;
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 .logo:hover {
-    box-shadow: 2px 2px 20px rgba(24, 37, 156, 0.9);
+    box-shadow: 2px 2px 20px #fc6a35;
 
 }
 
@@ -45,6 +44,7 @@ body {
     display: flex;
     height: 80%;
     justify-content: space-around;
+    position: relative;
 }
 
 .Orga {
@@ -57,20 +57,25 @@ body {
 }
 
 .VpPres {
+    position: relative;
     height: 18%;
     width: 100%;
-    /* border: 3mm ridge rgba(95, 233, 14, 0.6); */
     color:wheat;
     display: flex;
     align-items: center;
     background-color: rgb(37, 37, 37);
-    box-shadow: 2px 2px 7px rgba(0, 202, 202, 0.5);
+    box-shadow: 2px 2px 7px #fc6a35;
+}
+
+.VpPres:hover{
+    box-shadow: 2px 2px 20px #fc6a35;
 }
 
 .icone {
-    height: 70%;
+    height: 10vh;
     margin: 3%;
     border-radius: 100%;
+    border : 2px solid black
 }
 
 .description {
@@ -82,11 +87,8 @@ body {
     text-align: justify;
 }
 
-.liens{
+.pseudo{
     color: wheat;
-}
-.liens:hover {
-    color: tomato;
 }
 
 .name {
@@ -101,16 +103,22 @@ body {
 
 .Pres-Corpo {
     display: flex;
+    position: relative;
     justify-content: space-between;
     width: 40%;
     color:rgb(249, 249, 253);
     background-color: rgb(37, 37, 37);
-    box-shadow: 2px 2px 7px rgba(0, 202, 202, 0.5);
+    box-shadow: 2px 2px 7px #fc6a35;
 }
+
 
 .Pres-Corpo{
     display: flex;
     flex-direction: column;
+}
+
+.Pres-Corpo:hover{
+    box-shadow: 2px 2px 20px #fc6a35;
 }
 
 .Titre{
@@ -120,12 +128,29 @@ body {
     height: 10%;
 }
 
-.exp{
+.imgcorpo{
     display: flex;
-    text-align: justify;
+    height: 30%;
+    background: url(./Sources/Image/equipe.jpg) center/cover;
+}
+
+.centrage{
+    display: flex;
     align-items: center;
-    height: 90%;
+    height: 50%;
+}
+
+.exp{
     padding: 0% 4% ;
+    text-align: justify;
+}
+
+.remplissagelien{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .foot {
