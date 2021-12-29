@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto+Mono&display=swap');
+
 html{
     height: 100%;
     width: 100%;
@@ -46,11 +48,11 @@ body {
 }
 
 .agenda {
-    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png);     */
+    background: no-repeat center/cover url(./Sources/Image/1.png);    
 }
 
 .Liensutile {
-    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
+    background: no-repeat center/cover url(./Sources/Image/2.png);
 }
 
 .twogiftright {
@@ -60,16 +62,16 @@ body {
 }
 
 .pres {
-    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
+    background: no-repeat center/cover url(./Sources/Image/3-1.png);
 }
 
 .hist {
-    /* background: no-repeat center/cover url(./Sources/Image/CMD-SV.png) */
-}
+    background: no-repeat center/cover url(./Sources/Image/4.png);
+    }
 
 .giftDim {
     height: 100%;
-    width: 47%;
+    width: 37%;
     margin: 1%;
     border: rgb(0, 0, 0) 2px solid;
     transition: all .4s ease-out;
@@ -78,16 +80,35 @@ body {
     border-start-end-radius: 15% 8%;
     border-bottom-left-radius: 15% 8%;
 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .giftDim:hover {
     background-size: 175%;
     border-color: rgb(64, 86, 104);
+
+}
+.giftDim:hover::after {
+    background-color: red;
+    /* le after marche pas jsp pk, à voir plus tard */
 }
 
 .Imagelien{
-    display: flex;
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.titreSection {
+    color: rgb(219, 23, 23);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 1.8vw;
+    text-shadow: rgb(26, 43, 189) 0.1em 0.1em 0.2em;
 }
 
 .foot {

@@ -17,7 +17,7 @@ body {
     width: 100%;
     margin: 0%;
     background-color: rgb(04, 19, 24);
-    /* background: url(./Sources/Image/background-accueil-2.png) center/cover; */
+    background: url(../Sources/Image/background-accueil.png) center/cover;
 }
 
 .header {
@@ -27,6 +27,13 @@ body {
 }
 
 .logo {
+    transition: box-shadow .4s ease;
+    border-radius: 100%;
+}
+
+.logo:hover {
+    box-shadow: 2px 2px 20px rgba(24, 37, 156, 0.9);
+
 }
 
 .LogoAccueil{
