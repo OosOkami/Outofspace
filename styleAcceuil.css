@@ -1,45 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto+Mono&display=swap');
-
-html{
-    height: 100%;
-    width: 100%;
-}
-
-* {
-    /* outline: thick double rgb(69, 30, 210); */
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    background: url(./Sources/Image/background-accueil.png) center/cover;
-}
-
-.header {
-    display: flex;
-    height: 10%;
-    justify-content: center;
-}
-
-.logo {
-
-}
-
-.LogoAccueil{
-    height: 100%;
-
-}
-
-.corps {
-    display: flex;
-    height: 80%;
-    justify-content: space-around;
-}
-
 .twogiftleft {
     height: 100%;
     width: 40%;
@@ -48,11 +6,11 @@ body {
     align-items: center;
 }
 
-.agenda {
+.Services {
     background: no-repeat center/cover url(./Sources/Image/1.png);    
 }
 
-.Liensutile {
+.Outils {
     background: no-repeat center/cover url(./Sources/Image/2.png);
 }
 
@@ -64,11 +22,11 @@ body {
     align-items: center;
 }
 
-.pres {
+.Histoire {
     background: no-repeat center/cover url(./Sources/Image/3-1.png);
 }
 
-.hist {
+.Medias {
     background: no-repeat center/cover url(./Sources/Image/4.png);
     }
 
@@ -126,11 +84,4 @@ body {
 
 .giftDim:hover .titreSection {
     font-size: 3vw;
-}
-
-.foot {
-    height: 2% ;
-    text-align : center ;
-    font-size: 0.8em;
-    color: wheat;
 }

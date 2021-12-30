@@ -1,0 +1,116 @@
+
+.twogiftleft {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Discord {
+    background: no-repeat center/cover url(./Sources/Image/1.png);    
+}
+
+.Minage {
+    background: no-repeat center/cover url(./Sources/Image/2.png);
+}
+
+.twogiftright {
+    height: 100%;
+    width: 40%;
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.Commerce {
+    background: no-repeat center/cover url(./Sources/Image/3-1.png);
+}
+
+.Combat {
+    background: no-repeat center/cover url(./Sources/Image/4.png);
+    }
+
+.giftDim {
+    height: 40%;
+    width: 43%;
+    margin: 1%;
+    border: rgb(0, 0, 0) 2px solid;
+    transition: all .3s ease-out;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.55);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.giftDim:hover {
+    border-color: rgb(64, 86, 104);
+    height: 69%;
+}
+
+.twogiftright .giftDim,.twogiftright .popup, .twogiftright .sitepopup {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 40px;
+
+}
+
+.twogiftleft .giftDim, .twogiftleft .popup, .twogiftleft .sitepopup {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 2px; 
+}
+
+.Imagelien{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.titreSection {
+    color: #fc6a35;
+    font-family: 'Roboto Mono', monospace;
+    transition: all .3s ease-out;
+    font-weight: 900;
+    font-size: 1.8vw;
+    text-shadow: rgba(14, 14, 14, 0.822) 3px 3px 3px;
+}
+
+.giftDim:hover .titreSection {
+    font-size: 3vw;
+}
+
+.popup{
+    position: absolute;
+    z-index: 2;
+    top: 12%;
+    left: 3%;
+    right: 3%;
+    bottom: 5%;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+
+.sitepopup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    }
+
+.closeiframe{
+    position: absolute;
+    z-index: 3;
+    background: url("../Sources/Image/closeiframe.png") ;
+    width: 100px;
+    height: 100px;
+}
+]

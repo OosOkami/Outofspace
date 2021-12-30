@@ -1,43 +1,3 @@
-html{
-    height: 100%;
-    width: 100%;
-}
-
-* {
-    /* outline: thick double rgb(69, 30, 210); */
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    margin: 0%;
-    background-color: rgb(04, 19, 24);
-    /* background: url(./Sources/Image/background-accueil-2.png) center/cover; */
-}
-
-.header {
-    display: flex;
-    height: 10%;
-    justify-content: center
-}
-
-.logo {
-}
-
-.LogoAccueil{
-    height: 100%;
-
-}
-
-.corps {
-    display: flex;
-    height: 80%;
-    justify-content: space-around;
-}
-
 .twogiftleft {
     width: 40%;
     display: flex;
@@ -77,10 +37,4 @@ body {
     display: flex;
     height: 100%;
     width: 100%;
-}
-
-.foot {
-    height: 2% ;
-    text-align : center ;
-    font-size: 0.8em;
 }
