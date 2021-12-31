@@ -32,7 +32,7 @@
 
 .giftDim {
     height: 40%;
-    max-width: 43%;
+    width: 43%;
     margin: 1%;
     border: rgb(0, 0, 0) 2px solid;
     transition: all .3s ease-out;
