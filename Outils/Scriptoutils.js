@@ -13,3 +13,17 @@ commerce.addEventListener("click", (e) => {
 
     
 });
+
+const minage = document.querySelector(".minage")
+
+console.log(minage);
+
+minage.addEventListener("click", (e) => {
+    minage.classList.add("popup");
+    minage.classList.remove("giftDim");
+    
+    const newiframe =document.createElement("iframe");
+    newiframe.classList.add("sitepopup");
+    newiframe.setAttribute("src","https://uexcorp.space/");
+    minage.appendChild(newiframe);
+})
