@@ -1,26 +1,23 @@
-
-.twogiftleft {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+body{
+    background: no-repeat center/cover url(./Sources/Image/Fond.jpg);
 }
 
-.Discord {
+.listSection {
+    height:90%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
+
+.discord {
     background: no-repeat center/cover url(./Sources/Image/1.png);    
 }
 
 .minage {
     background: no-repeat center/cover url(./Sources/Image/2.png);
-}
-
-.twogiftright {
-    height: 100%;
-    width: 40%;
-    display: flex;
-	justify-content: space-around;
-    align-items: center;
 }
 
 .Commerce {
@@ -29,12 +26,12 @@
 
 .Combat {
     background: no-repeat center/cover url(./Sources/Image/4.png);
-    }
+}
 
-.giftDim {
-    height: 40%;
-    width: 43%;
-    margin: 1%;
+.section {
+    height: 15%;
+    width: 80%;
+    margin: 2%;
     border: rgb(0, 0, 0) 2px solid;
     transition: all .3s ease-out;
     overflow: hidden;
@@ -43,27 +40,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.giftDim:hover {
+.section:hover {
     border-color: rgb(64, 86, 104);
-    height: 69%;
+    height: 20%;
 }
 
-.twogiftright .giftDim,.twogiftright .popup, .twogiftright .sitepopup {
+.listSection .section,.listSection .popup, .listSection .sitepopup {
     border-top-left-radius: 2px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 40px;
 
-}
-
-.twogiftleft .giftDim, .twogiftleft .popup, .twogiftleft .sitepopup {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 2px; 
 }
 
 .Imagelien{
@@ -83,8 +72,8 @@
     text-shadow: rgba(14, 14, 14, 0.822) 3px 3px 3px;
 }
 
-.giftDim:hover .titreSection {
-    font-size: 3vw;
+.section:hover .titreSection {
+    font-size: 2.5vw;
 }
 
 .popup{
@@ -112,4 +101,72 @@
     background: url("../Sources/Image/closeiframe.png") ;
     width: 100px;
     height: 100px;
+}
+
+.detailSection {
+    height: 90%;
+    width: 50%;
+}
+
+.dSection {
+    height: 100%;
+    width: 90%;
+    background-color: rgba(37, 37, 37, 0.55);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 25px;
+    background: blur(40px);
+}
+
+.carteLien {
+    position: relative;
+    min-height: 18%;
+    width: 100%;
+    color:whitesmoke;
+    margin: 2%;
+
+    display: flex;
+    align-items: center;
+    /* background-color: rgba(37, 37, 37, 0.5); */
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 2px; 
+
+    transition: all .3s ease-out;
+}
+
+.carteLien:hover {
+    outline: #fc6a35 1px solid;
+}
+
+.icone {
+    height: 10vh;
+    margin: 3%;
+    border-radius: 100%;
+    border : 2px solid black;
+    background-color: whitesmoke;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Maven Pro', sans-serif;
+    padding-right: 4% ;
+    text-align: justify;
+}
+
+.name {
+    font-size: 3.5vh;
+    
+}
+
+.presContent {
+    font-size: 2vh;
+    
 }

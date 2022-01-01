@@ -2,6 +2,10 @@
     /* outline: thick double rgb(69, 30, 210); */
 }
 
+body{
+    background: no-repeat center/cover url("./Sources/Image/Fond.jpg");
+}
+
 .Orga {
     display: flex;
     flex-direction: column;

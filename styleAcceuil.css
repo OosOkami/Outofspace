@@ -1,3 +1,7 @@
+body{
+    background: url(./Sources/Image/background-accueil.png) no-repeat center/cover;
+}
+
 .twogiftleft {
     height: 100%;
     width: 40%;
