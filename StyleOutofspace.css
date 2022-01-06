@@ -81,11 +81,11 @@ footer {
 }
 
 .contacts {
-    font-size: 1.5vh;
+    /* font-size: 1.5vh;
     color: wheat;
     width: 30%;
     display: flex;
-    align-items: center;
+    align-items: center; */
 }
 
 .discordLogo {
@@ -98,4 +98,31 @@ footer {
 
 .divVisible {
     visibility: visible;
+}
+
+.Journal{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    height: 100px;
+    width: 100px;
+}
+
+.Evenement{
+    background-color: wheat;
+    z-index: 3;
+    top: 12%;
+    left: 3%;
+    right: 3%;
+    bottom: 5%;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+.logojournal{
+    background: no-repeat center/cover url(./Sources/Image/Journal.png);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    transition: all .3s ease-out;
+    border-radius: 20%;
 }
