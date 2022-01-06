@@ -25,22 +25,35 @@ body {
     height: 10%;
     justify-content: center
 }
+/* Y en a 2 c'est normal tkt */
+header {
+    display: flex;
+    height: 10%;
+    justify-content: center
+}
 
 .logo {
     transition: box-shadow .4s ease;
     border-radius: 100%;
-}
-
-.logo:hover {
-    box-shadow: 2px 2px 20px #fc6a35;
-    
+    /* width: 40%; */
 }
 
 .LogoAccueil{
     height: 100%;
     border-radius: 100%;
-
+    
 }
+
+.LogoAccueil:hover {
+    box-shadow: 0px 0px 3px #ffffff, 0px 0px 10px #fc6a35 ;
+    /* box-shadow: 0 0 7px #fff, 
+    0 0 10px #fff, 
+    0 0 42px rgb(187, 187, 187),   
+    0 0 77px rgb(230, 18, 124), 
+    0 0 100px rgb(16, 1, 102);
+     */
+}
+
 .corps {
     display: flex;
     justify-content: space-around;
@@ -53,6 +66,30 @@ body {
     text-align : center ;
     font-size: 0.8em;
     color: wheat;
+}
+/* Y en a 2 ici c'est normal aussi  */
+footer {
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyRight {
+    font-size: 1.2vh;
+    color: wheat;
+    /* padding-top: 1%; */
+}
+
+.contacts {
+    font-size: 1.5vh;
+    color: wheat;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.discordLogo {
+    width: 20px;
 }
 
 .divCollapse {
