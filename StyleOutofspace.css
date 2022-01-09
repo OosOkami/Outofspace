@@ -80,14 +80,6 @@ footer {
     /* padding-top: 1%; */
 }
 
-.contacts {
-    /* font-size: 1.5vh;
-    color: wheat;
-    width: 30%;
-    display: flex;
-    align-items: center; */
-}
-
 .discordLogo {
     width: 20px;
 }
@@ -102,27 +94,70 @@ footer {
 
 .Journal{
     position: absolute;
-    right: 2%;
-    bottom: 2%;
-    height: 100px;
-    width: 100px;
+    z-index: 3;
+    right: 3%;
+    bottom: 3%;
 }
 
-.Evenement{
-    background-color: wheat;
-    z-index: 3;
-    top: 12%;
-    left: 3%;
-    right: 3%;
-    bottom: 5%;
-    text-align: center;
-    transition: all .3s ease-out;
+.pnglogojournal{
+    width: 70px;
 }
-.logojournal{
-    background: no-repeat center/cover url(./Sources/Image/Journal.png);
-    height: 100%;
-    width: 100%;
+
+.evenement{
+    position: absolute;
+    background-color: darkgrey;
     z-index: 2;
-    transition: all .3s ease-out;
-    border-radius: 20%;
+    right: 3%;
+    bottom: 3.5%;
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+
+}
+
+.Bonjour{
+    height: 10%;
+    width: 100%;
+    text-align: justify;
+}
+
+.evdynamique{
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+.raccourcie{
+    display: flex;
+    justify-content: space-around;
+    height: 18%;
+    width: 100%;
+    border-bottom-left-radius: 10% 40%;
+    border-bottom-right-radius: 10% 40%;
+    background-color: darkred;
+}
+
+.Youtube{
+    display: flex;
+    margin-left: 10px;
+    width: 28%;
+}
+
+.discord{
+    display: flex;
+    width: 32%;
+}
+
+.openclose{
+    display: flex;
+    width: 28%;
+}
+
+.evenementDate{
+
 }

@@ -69,6 +69,7 @@ body{
     position: relative;
     justify-content: space-between;
     width: 40%;
+    height: 100%;
     color:rgb(249, 249, 253);
     background-color: rgb(37, 37, 37);
     box-shadow: 2px 2px 7px #fc6a35;
@@ -92,7 +93,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 5%;
 }
 
 .imgcorpo{
