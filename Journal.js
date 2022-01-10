@@ -10,7 +10,7 @@ Journal.addEventListener("click", (e) => {
 const evenementDate = document.querySelector(".evenementDate");
 
 window.onload = function() {
-    setInterval("dateEtHeure()",3600)
+    setInterval("dateEtHeure()",400)
 }
 
 function dateEtHeure() {

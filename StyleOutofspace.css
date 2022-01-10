@@ -110,11 +110,11 @@ footer {
     right: 3%;
     bottom: 3.5%;
     height: 50%;
-    width: 25%;
+    width: 235px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom-left-radius: 10%;
+    border-bottom-left-radius: 14%;
     border-bottom-right-radius: 10%;
     
 
@@ -137,25 +137,28 @@ footer {
     justify-content: space-around;
     height: 18%;
     width: 100%;
-    border-bottom-left-radius: 10% 40%;
+    border-bottom-left-radius: 14% 60%;
     border-bottom-right-radius: 10% 40%;
     background-color: darkred;
 }
 
-.Youtube{
-    display: flex;
-    margin-left: 10px;
-    width: 28%;
+.youtube{
+    background: no-repeat center/cover url(./Sources/Image/youtube.png);
+    width: 33%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 .discord{
-    display: flex;
-    width: 32%;
+    background: no-repeat center/cover url(./Sources/Image/discord.png);
+    width: 33%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 .openclose{
     display: flex;
-    width: 28%;
+    width: 33%;
 }
 
 .evenementDate{
