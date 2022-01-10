@@ -106,6 +106,7 @@ body{
 .detailSection {
     height: 90%;
     width: 50%;
+    display: flex;
 }
 
 .dSection {
@@ -118,7 +119,6 @@ body{
     align-items: center;
 
     border-radius: 25px;
-    background: blur(40px);
 }
 
 .carteLien {

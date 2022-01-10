@@ -94,6 +94,8 @@ footer {
 
 .divCollapse {
     visibility: collapse;
+    position: absolute;
+    top: 0;
 }
 
 .divVisible {
