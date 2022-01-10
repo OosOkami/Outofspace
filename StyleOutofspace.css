@@ -80,14 +80,6 @@ footer {
     /* padding-top: 1%; */
 }
 
-.contacts {
-    font-size: 1.5vh;
-    color: wheat;
-    width: 30%;
-    display: flex;
-    align-items: center;
-}
-
 .discordLogo {
     width: 20px;
 }
@@ -100,4 +92,77 @@ footer {
 
 .divVisible {
     visibility: visible;
+}
+
+.Journal{
+    position: absolute;
+    z-index: 3;
+    right: 3%;
+    bottom: 3%;
+}
+
+.pnglogojournal{
+    width: 70px;
+}
+
+.evenement{
+    position: absolute;
+    background-color: darkgrey;
+    z-index: 2;
+    right: 3%;
+    bottom: 3.5%;
+    height: 50%;
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 14%;
+    border-bottom-right-radius: 10%;
+    
+
+}
+
+.Bonjour{
+    height: 10%;
+    width: 100%;
+    text-align: justify;
+}
+
+.evdynamique{
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+.raccourcie{
+    display: flex;
+    justify-content: space-around;
+    height: 18%;
+    width: 100%;
+    border-bottom-left-radius: 14% 60%;
+    border-bottom-right-radius: 10% 40%;
+    background-color: darkred;
+}
+
+.youtube{
+    background: no-repeat center/cover url(./Sources/Image/youtube.png);
+    width: 33%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.discord{
+    background: no-repeat center/cover url(./Sources/Image/discord.png);
+    width: 33%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.openclose{
+    display: flex;
+    width: 33%;
+}
+
+.evenementDate{
+
 }
