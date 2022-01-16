@@ -6,24 +6,40 @@ body{
     background: no-repeat center/cover url("./Sources/Image/Fond.jpg");
 }
 
+.OrgaContener{
+    display: flex;
+    justify-content: center;
+    max-height: 74vh;
+    overflow: auto;
+    width: 50%;
+
+}
+
+
 .Orga {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 40%;
-    height: 100%;
-    margin : 0%;
+    justify-content: space-between;
+    height: 1525px;
+    width: 90%;
+}
+
+.PresContener{
+    display: flex;
+    justify-content: center;
+    height: 74vh;
+    width: 50%;
 }
 
 .VpPres {
     position: relative;
-    min-height: 18%;
+    min-height: 200px;
     width: 100%;
     color:wheat;
     display: flex;
     align-items: center;
-    background-color: rgb(37, 37, 37);
-    box-shadow: 2px 2px 7px #fc6a35;
+    background-color: var(--fondPres);
+    box-shadow: var(--bordure);
     border-top-left-radius: 40px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 40px;
@@ -59,30 +75,26 @@ body{
     
 }
 
-.presContent {
-    font-size: 2vh;
-    
+.presContent {    
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .Pres-Corpo {
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 40%;
+    flex-direction: column;
+    width: 80%;
     height: 100%;
     color:rgb(249, 249, 253);
-    background-color: rgb(37, 37, 37);
-    box-shadow: 2px 2px 7px #fc6a35;
+    background-color: var(--fondPres);
+    box-shadow: var(--bordure);
     border-top-left-radius: 2px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 40px;
-}
-
-
-.Pres-Corpo{
-    display: flex;
-    flex-direction: column;
 }
 
 .Pres-Corpo:hover{
