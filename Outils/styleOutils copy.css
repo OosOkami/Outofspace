@@ -12,7 +12,7 @@ body{
 
 }
 
-.discord {
+.Soutiens {
     background: no-repeat center/cover url(./Sources/Image/1.png);    
 }
 
@@ -97,7 +97,7 @@ body{
 
 .closeiframe{
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     background: url("../Sources/Image/closeiframe.png") ;
     width: 100px;
     height: 100px;

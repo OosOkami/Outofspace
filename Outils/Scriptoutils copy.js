@@ -1,3 +1,19 @@
+const Combat = document.querySelector(".Combat");
+
+console.log(Combat);
+
+Combat.addEventListener("click", (e) => {
+    Combat.classList.add("popup");
+    Combat.classList.remove("giftDim");
+
+    const newiframe =document.createElement("iframe");
+    newiframe.classList.add("sitepopup");
+    newiframe.setAttribute("src","https://www.erkul.games/");
+    Combat.appendChild(newiframe);
+
+    
+});
+
 const commerce = document.querySelector(".Commerce");
 
 console.log(commerce);
@@ -24,20 +40,20 @@ minage.addEventListener("click", (e) => {
     
     const newiframe =document.createElement("iframe");
     newiframe.classList.add("sitepopup");
-    newiframe.setAttribute("src","https://uexcorp.space/");
+    newiframe.setAttribute("src","http://oos.nmgc.ovh/");
     minage.appendChild(newiframe);
-})
+});
 
-const discord = document.querySelector(".discord")
+const Soutiens = document.querySelector(".Soutiens")
 
-console.log(discord);
+console.log(Soutiens);
 
-discord.addEventListener("click", (e) => {
-    discord.classList.add("popup");
-    discord.classList.remove("giftDim");
+Soutiens.addEventListener("click", (e) => {
+    Soutiens.classList.add("popup");
+    Soutiens.classList.remove("giftDim");
     
     const newiframe =document.createElement("iframe");
     newiframe.classList.add("sitepopup");
-    newiframe.setAttribute("src","https://discord.gg/FU8sdF9B");
-    minage.appendChild(newiframe);
-})
+    // newiframe.setAttribute("src","l'iens du site voulus");
+    Soutiens.appendChild(newiframe);
+});
