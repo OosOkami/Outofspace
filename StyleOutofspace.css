@@ -40,7 +40,9 @@ header {
 .logo {
     transition: box-shadow .4s ease;
     border-radius: 100%;
-    /* width: 40%;/*
+    text-align: center;
+    margin-top: .3em;
+    /* width: 40%;*/
 }
 
 .LogoAccueil{

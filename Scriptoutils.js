@@ -1,61 +1,33 @@
-// const commerce = document.querySelector(".Commerce");
-
-// console.log(commerce);
-
-// commerce.addEventListener("click", (e) => {
-//     commerce.classList.add("popup");
-//     commerce.classList.remove("giftDim");
-
-//     const newiframe =document.createElement("iframe");
-//     newiframe.classList.add("sitepopup");
-//     newiframe.setAttribute("src","https://sc-trade.tools/home");
-//     commerce.appendChild(newiframe);
-
-    
-// });
-
-// const minage = document.querySelector(".minage")
-
-// console.log(minage);
-
-// minage.addEventListener("click", (e) => {
-//     minage.classList.add("popup");
-//     minage.classList.remove("giftDim");
-    
-//     const newiframe =document.createElement("iframe");
-//     newiframe.classList.add("sitepopup");
-//     newiframe.setAttribute("src","https://uexcorp.space/");
-//     minage.appendChild(newiframe);
-// })
-
-// const discord = document.querySelector(".discord")
-
-// console.log(discord);
-
-// discord.addEventListener("click", (e) => {
-//     discord.classList.add("popup");
-//     discord.classList.remove("giftDim");
-    
-//     const newiframe =document.createElement("iframe");
-//     newiframe.classList.add("sitepopup");
-//     newiframe.setAttribute("src","https://discord.gg/FU8sdF9B");
-//     minage.appendChild(newiframe);
-// });
-
-
-
 ///////////////////  Déploiement de section ///////////////////
+const sections = document.querySelectorAll(".giftDim");
 
-const sections = document.querySelectorAll(".section");
+let links = {
+    "soutien":"./Image-gen/", 
+    "minage":"./RafineryCalcJs/", 
+    "commerce":"https://sc-trade.tools/home", 
+    "combat": "https://www.erkul.games/"
+};
 
-console.log(sections);
-sections.forEach((item) => {
-    item.addEventListener("click", (e) => {
-        console.log(e.target);
-        e.target.style.width = 90 + "%";
-        e.target.style.marginLeft = 10 + "%";
+let closeIframe = `
+<label class = "closeiframe">
+    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+    </svg>
+</label>
+`;
 
+sections.forEach((section) => {
+    section.addEventListener("click", (e) => {
+        console.log("slt");
         
+        section.classList.remove("giftDim");
+        section.classList.add("popup");
+
+        const newiframe = document.createElement("iframe");
+        newiframe.classList.add("sitepopup");
+        newiframe.setAttribute("src", links[section.id]);
+        section.appendChild(newiframe);
+        section.innerHTML += closeIframe;
 
     });
 });
